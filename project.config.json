@@ -12,7 +12,26 @@
 		"beforePreview": "npm run tsc",
 		"beforeUpload": "npm run tsc"
 	},
-	"setting": {},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": true
+	},
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"appid": "wx0add5751025f1050",
